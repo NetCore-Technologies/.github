@@ -1,477 +1,235 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:111827,100:020617&height=220&section=header&text=NETCORE%20TECHNOLOGIES&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=AI%20%7C%20NETWORKING%20%7C%20SYSTEMS%20%7C%20OPEN%20SOURCE&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=NETCORE%20TECHNOLOGIES&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=OPEN%20SOURCE%20NETWORKING%20%7C%20AI%20%7C%20SYSTEM%20ENGINEERING&descAlignY=61&descSize=15&animation=fadeIn&color=0:04050A,30:0B1020,58:4779FF,82:9560E7,100:DB285F" width="100%" alt="NetCore Technologies" />
 
 <br>
 
-# ⚡ NetCore Technologies
-
-### **Building the infrastructure behind what comes next.**
-
-<p>
-  <a href="https://github.com/NetCore-Technologies?tab=repositories">
-    <img src="https://img.shields.io/badge/EXPLORE%20PROJECTS-111827?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-  <a href="https://github.com/NetCore-Technologies">
-    <img src="https://img.shields.io/badge/OPEN%20SOURCE-0f766e?style=for-the-badge&logo=opensourceinitiative&logoColor=white">
-  </a>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/AI-111827?style=flat-square">
-  <img src="https://img.shields.io/badge/NETWORKING-111827?style=flat-square">
-  <img src="https://img.shields.io/badge/SYSTEMS-111827?style=flat-square">
-  <img src="https://img.shields.io/badge/DEVELOPER%20TOOLS-111827?style=flat-square">
-  <img src="https://img.shields.io/badge/OPEN%20SOURCE-111827?style=flat-square">
-</p>
-
-</div>
-
----
-
-## 🧠 Who We Are
-
-**NetCore Technologies** is an independent technology organization focused on building **powerful, open and intelligent infrastructure**.
-
-We work across the stack — from low-level systems and networking to modern web platforms and artificial intelligence.
-
-Our goal isn't to make another collection of basic software projects.
-
-> **We build technology people can actually understand, modify, deploy and own.**
-
----
-
-## ⚡ What We Build
-
-<table>
-<tr>
-<td width="50%">
-
-### 🤖 Artificial Intelligence
-
-Building practical AI infrastructure and developer tooling.
-
-```text
-Local AI
-AI runtimes
-Agents
-Inference
-Developer APIs
-Private AI
-Model tooling
-Automation
-```
-
-</td>
-
-<td width="50%">
-
-### 🌐 Networking
-
-Engineering systems for faster, smarter and more observable networks.
-
-```text
-Wi-Fi
-5G
-Routing
-Network analytics
-Low latency
-Traffic optimisation
-Diagnostics
-Security
-```
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🧠 Systems
-
-Working close to the hardware and operating system layer.
-
-```text
-Linux
-OpenWrt
-Embedded systems
-Performance
-Drivers
-Accelerators
-Infrastructure
-Firmware
-```
-
-</td>
-
-<td width="50%">
-
-### 🛠️ Developer Tools
-
-Tools that make complicated technology easier to build with.
-
-```text
-CLI tools
-Dashboards
-APIs
-Automation
-Monitoring
-Developer infrastructure
-Open-source utilities
-```
-
-</td>
-</tr>
-</table>
-
----
-
-# 🚀 Flagship Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-## 🌐 QuantumGrid OS
-
-**Next-generation networking infrastructure.**
-
-QuantumGrid OS is our exploration into building a powerful networking platform focused on:
-
-* ⚡ Extreme performance
-* 🎮 Gaming optimisation
-* 📡 Advanced Wi-Fi
-* 📶 Cellular / 5G networking
-* 🔐 Security
-* 📊 Real-time monitoring
-* 🧩 Modular architecture
-* 🚀 Hardware acceleration
-
-**The goal: turn networking infrastructure into something significantly more powerful and configurable.**
-
-<br>
-
-<a href="https://github.com/NetCore-Technologies/QuantumGrid-OS">
-
-<img src="https://img.shields.io/badge/VIEW%20QUANTUMGRID-2563eb?style=for-the-badge&logo=github&logoColor=white">
-
-</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-## 📡 WiFi Analyzer Pro
-
-**Real-time wireless intelligence.**
-
-A modern Wi-Fi diagnostic platform combining a Python backend with a React frontend.
-
-### Core capabilities
-
-* 📶 Wi-Fi scanning
-* 🔍 Access-point analysis
-* 📊 Signal monitoring
-* 🧠 Smart channel analysis
-* 🚨 Rogue AP detection
-* ⚡ Speed testing
-* 📈 Network analytics
-* 📁 Data export
-
-<br>
-
-<a href="https://github.com/manit6752025/wifi-analyzer-pro">
-
-<img src="https://img.shields.io/badge/VIEW%20WIFI%20ANALYZER-0f766e?style=for-the-badge&logo=github&logoColor=white">
-
-</a>
-
-</td>
-</tr>
-</table>
-
----
-
-# 🧬 Our Stack
-
-<div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=python,c,cpp,rust,typescript,javascript,bash&theme=dark" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=24&duration=3000&pause=900&color=FFFFFF&center=true&vCenter=true&width=850&lines=Build+AI.+Own+AI.;Engineer+the+network.;Build+systems+worth+owning.;Open+source.+Local-first.+Performance-driven." alt="NetCore Technologies typing animation" />
 
 <br><br>
 
-### Platforms & Infrastructure
+<img src="https://img.shields.io/badge/OPEN%20SOURCE-04050A?style=for-the-badge&labelColor=DB285F&color=9560E7" alt="Open Source" />
+<img src="https://img.shields.io/badge/AI-04050A?style=for-the-badge&labelColor=9560E7&color=4779FF" alt="AI" />
+<img src="https://img.shields.io/badge/NETWORKING-04050A?style=for-the-badge&labelColor=4779FF&color=19E6FF" alt="Networking" />
+<img src="https://img.shields.io/badge/LINUX-04050A?style=for-the-badge&labelColor=42DF9D&color=4779FF" alt="Linux" />
 
-<img src="https://skillicons.dev/icons?i=linux,docker,github,githubactions,react,nodejs&theme=dark" />
+<br><br>
+
+**NetCore Technologies builds open-source software for AI, networking, Linux and systems engineering.**
 
 </div>
 
 ---
 
-# 🤖 Building Our AI Stack
+## ◈ What we build
 
-We believe AI shouldn't only exist behind somebody else's API.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-We're interested in building an ecosystem where developers can understand the complete AI pipeline.
+### ⚡ AI Engineering
 
-```text
-                 ┌─────────────────────┐
-                 │      APPLICATION    │
-                 └──────────┬──────────┘
-                            │
-                 ┌──────────▼──────────┐
-                 │       AI AGENTS     │
-                 └──────────┬──────────┘
-                            │
-                 ┌──────────▼──────────┐
-                 │     AI RUNTIME      │
-                 └──────────┬──────────┘
-                            │
-                 ┌──────────▼──────────┐
-                 │      INFERENCE      │
-                 └──────────┬──────────┘
-                            │
-                 ┌──────────▼──────────┐
-                 │        MODEL        │
-                 └──────────┬──────────┘
-                            │
-                 ┌──────────▼──────────┐
-                 │     HARDWARE        │
-                 └─────────────────────┘
-```
+**AXIOM** is our local-first AI engineering platform for taking models, datasets, training, evaluation and runtime workflows into one focused engineering environment.
 
-### Our direction
+<a href="https://github.com/NetCore-Technologies/AXIOM-AI">Explore AXIOM →</a>
 
-**Build → Understand → Optimise → Share**
+</td>
+<td width="50%" valign="top">
 
-Not just consuming AI.
+### ◉ Network Engineering
 
-**Building the stack underneath it.**
+We build tools and operating-system work around Wi-Fi, routing, diagnostics, acceleration, telemetry, performance and Linux networking.
 
----
+<a href="https://github.com/NetCore-Technologies/QuantumGrid-OS">Explore QuantumGrid OS →</a>
 
-# 🌐 Networking Meets AI
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-One of the areas we're particularly interested in is the intersection between:
+### ◇ Developer Tools
 
-```text
-                 AI
-                  │
-                  ▼
-        ┌─────────────────┐
-        │ Intelligent      │
-        │ Infrastructure   │
-        └────────┬────────┘
-                 │
-        ┌────────▼────────┐
-        │ Network          │
-        │ Intelligence     │
-        └────────┬────────┘
-                 │
-        ┌────────▼────────┐
-        │ Wi-Fi / 5G       │
-        │ Routing / QoS    │
-        └──────────────────┘
-```
+Practical engineering utilities for developers who want observability, automation and useful interfaces rather than black boxes.
 
-Imagine networks that can **measure themselves, understand traffic patterns, optimise performance and automatically adapt**.
+</td>
+<td width="50%" valign="top">
 
-That's the kind of infrastructure we're interested in building.
+### ◎ Local-first systems
+
+Our projects favour local control, transparent behaviour, strong telemetry and the ability to understand the software you run.
+
+</td>
+</tr>
+</table>
 
 ---
-
-# 🧪 Engineering Philosophy
-
-### We like technology that can be opened up.
-
-```text
-               DON'T JUST
-                  USE IT
-
-                    ↓
-
-               UNDERSTAND IT
-
-                    ↓
-
-                MODIFY IT
-
-                    ↓
-
-                 BREAK IT
-
-                    ↓
-
-                IMPROVE IT
-
-                    ↓
-
-                 SHARE IT
-```
-
-We care about:
-
-**Performance**
-Systems should be fast.
-
-**Transparency**
-Systems should be understandable.
-
-**Security**
-Infrastructure should be built defensively.
-
-**Modularity**
-Components should be replaceable.
-
-**Open Source**
-Useful technology should be accessible.
-
-**Experimentation**
-Some of the best ideas start as weird experiments.
-
----
-
-# 🔬 Current Areas of Research
-
-| Area        | Focus                                               |
-| ----------- | --------------------------------------------------- |
-| 🤖 AI       | Local models, agents, inference & AI infrastructure |
-| 🌐 Networks | High-performance networking & traffic intelligence  |
-| 📡 Wi-Fi    | Wireless analysis, optimisation & diagnostics       |
-| 📶 5G       | Cellular connectivity & network tooling             |
-| 🧠 Systems  | Linux, embedded systems & performance               |
-| 🔐 Security | Visibility, detection & defensive infrastructure    |
-| 🎮 Gaming   | Low-latency networking & optimisation               |
-| 🛠️ Tooling | Developer infrastructure & automation               |
-
----
-
-# 📊 GitHub
 
 <div align="center">
 
-<a href="https://github.com/NetCore-Technologies">
+# AXIOM
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=NetCore-Technologies&show_icons=true&hide_border=true&theme=github_dark&bg_color=00000000&include_all_commits=true&count_private=true" />
+### AI ENGINEERING PLATFORM
 
+<img src="https://capsule-render.vercel.app/api?type=rect&height=115&text=AXIOM&fontSize=64&fontColor=FFFFFF&fontAlignY=54&animation=twinkling&color=0:DB285F,38:9560E7,70:4779FF,100:19E6FF" width="92%" alt="AXIOM" />
+
+### **Build AI. Own AI.**
+
+Models · Datasets · Training · Evaluation · Runtime · MCP · Diagnostics · Telemetry
+
+<a href="https://github.com/NetCore-Technologies/AXIOM-AI">
+<img src="https://img.shields.io/badge/OPEN%20AXIOM-%23FFFFFF?style=for-the-badge&labelColor=04050A&color=9560E7" alt="Open AXIOM" />
 </a>
 
-<a href="https://github.com/NetCore-Technologies">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NetCore-Technologies&layout=compact&hide_border=true&theme=github_dark&bg_color=00000000" />
-
+<a href="https://netcore-technologies.github.io/AXIOM-AI/">
+<img src="https://img.shields.io/badge/AXIOM%20WEBSITE-%23FFFFFF?style=for-the-badge&labelColor=04050A&color=4779FF" alt="AXIOM Website" />
 </a>
 
 </div>
 
 ---
 
-# 📈 Build In Public
+## ◈ Featured projects
+
+<table>
+<tr>
+<td width="50%">
+
+### AXIOM AI
+
+Local-first AI engineering and the AXIOM Control Center.
+
+**Python · React · TypeScript · AI tooling**
+
+<a href="https://github.com/NetCore-Technologies/AXIOM-AI">Repository →</a>
+
+</td>
+<td width="50%">
+
+### QuantumGrid OS
+
+Performance-focused networking OS engineering for modern routing hardware.
+
+**OpenWrt · Linux · Wi-Fi · acceleration · telemetry**
+
+<a href="https://github.com/NetCore-Technologies/QuantumGrid-OS">Repository →</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### WiFi Analyzer Pro
+
+Real-time Wi-Fi diagnostics and network intelligence.
+
+**Python · React · wireless analysis · system telemetry**
+
+<a href="https://github.com/manit6752025/wifi-analyzer-pro">Repository →</a>
+
+</td>
+<td width="50%">
+
+### NetCore Engineering
+
+A growing collection of networking, Linux and developer-focused open-source work.
+
+**Open source · systems · automation · tooling**
+
+</td>
+</tr>
+</table>
+
+---
+
+# ◈ GitHub activity
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NetCore-Technologies&theme=github-compact&hide_border=true&area=true" width="100%"/>
+### Contribution graph
 
-</div>
-
----
-
-# 🌍 Open Source
-
-We want our projects to be more than repositories.
-
-We want them to become **building blocks**.
-
-Whether you're a:
-
-`Developer` · `Network Engineer` · `AI Builder` · `Systems Hacker` · `Student` · `Researcher`
-
-there should be something here worth experimenting with.
-
-### Contributions are welcome.
-
-```text
-⭐ Star
-   ↓
-🍴 Fork
-   ↓
-🧪 Experiment
-   ↓
-🐛 Find something broken
-   ↓
-🔧 Fix it
-   ↓
-🚀 Pull Request
-```
-
----
-
-# 🗺️ Roadmap
-
-### 2026
-
-```text
-[████████████████░░░░] Building the foundation
-```
-
-### Next
-
-**01 — AI Infrastructure**
-
-Build practical tools for local and open AI.
-
-**02 — Intelligent Networking**
-
-Bring AI-driven analysis and optimisation into network infrastructure.
-
-**03 — Systems Platform**
-
-Expand our low-level systems and embedded work.
-
-**04 — Developer Ecosystem**
-
-Turn useful internal tooling into public developer tools.
-
-**05 — Open Source Community**
-
-Build projects that others can extend, fork and improve.
-
----
-
-# ⚡ The NetCore Standard
-
-We don't want to build technology that simply works.
-
-We want to build technology that makes people say:
-
-> **"Wait… I can actually see how this works."**
-
-That's the standard.
-
----
-
-<div align="center">
-
-# 🚀 BUILD THE FUTURE.
-
-### Don't just use the technology.
-
-## **Understand it. Build it. Own it.**
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NetCore-Technologies&bg_color=04050A&color=FFFFFF&line=4779FF&point=DB285F&area=true&area_color=9560E7&hide_border=true&custom_title=NetCore%20Technologies%20Contribution%20Graph" width="96%" alt="NetCore Technologies contribution graph" />
 
 <br>
+
+### Repository & engineering stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=NetCore-Technologies&show_icons=true&hide_border=true&bg_color=04050A&title_color=FFFFFF&text_color=9AA9BC&icon_color=4779FF&ring_color=DB285F&include_all_commits=true&count_private=true&custom_title=NetCore%20Technologies%20Engineering%20Stats" height="180" alt="NetCore Technologies GitHub stats" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NetCore-Technologies&layout=compact&hide_border=true&bg_color=04050A&title_color=FFFFFF&text_color=9AA9BC&langs_count=8&custom_title=Primary%20Languages" height="180" alt="NetCore Technologies languages" />
+
+</div>
+
+---
+
+# ◈ Achievements
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=NetCore-Technologies&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&column=6" width="96%" alt="NetCore Technologies achievements" />
+
+</div>
+
+---
+
+# ◈ Engineering philosophy
+
+<div align="center">
+
+### OWN THE STACK.
+
+### UNDERSTAND THE SYSTEM.
+
+### ENGINEER THE EXPERIENCE.
+
+</div>
+
+```text
+LOCAL-FIRST       Keep important capabilities close to the operator.
+OBSERVABLE        Make behaviour visible instead of hiding it.
+PERFORMANT        Respect the hardware and remove unnecessary overhead.
+MODULAR           Build systems that can evolve without becoming opaque.
+OPEN              Prefer inspectable, community-driven technology.
+
+``` 
+
+---
+
+## ◈ Technology
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=linux,python,typescript,react,bash,git,github,docker" alt="Technology stack" />
+
+<br><br>
+
+`Linux` · `OpenWrt` · `Python` · `React` · `TypeScript` · `C/C++` · `Bash` · `Git`
+
+</div>
+
+---
+
+<div align="center">
+
+## CURRENT SIGNAL
+
+<img src="https://img.shields.io/badge/AXIOM-AI%20ENGINEERING-04050A?style=for-the-flat-square&labelColor=DB285F&color=9560E7" alt="AXIOM" />
+<img src="https://img.shields.io/badge/QUANTUMGRID-NETWORKING-04050A?style=for-the-flat-square&labelColor=4779FF&color=19E6FF" alt="QuantumGrid" />
+<img src="https://img.shields.io/badge/WIFI%20TOOLS-DIAGNOSTICS-04050A?style=for-the-flat-square&labelColor=42DF9D&color=4779FF" alt="WiFi Tools" />
+
+<br><br>
 
 <a href="https://github.com/NetCore-Technologies?tab=repositories">
-<img src="https://img.shields.io/badge/EXPLORE%20NETCORE-ffffff?style=for-the-badge&logo=github&logoColor=111827">
+<img src="https://img.shields.io/badge/VIEW%20ALL%20PROJECTS-%23FFFFFF?style=for-the-badge&labelColor=04050A&color=11121B" alt="View all projects" />
 </a>
 
 <br><br>
 
-<sub>NetCore Technologies · AI × Networks × Systems × Open Source</sub>
+<sub>Open Source Networking Tools · WiFi & Network Engineering · Linux · OpenWrt · React · Python</sub>
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:111827,100:0f172a&height=120&section=footer" width="100%"/>
+**NetCore Technologies**
+
+*Build systems worth owning.*
 
 </div>
