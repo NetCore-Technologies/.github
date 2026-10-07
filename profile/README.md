@@ -15,7 +15,7 @@
 
 <br><br>
 
-**NetCore Technologies builds open-source software for AI, networking, Linux and systems engineering.**
+<strong>NetCore Technologies builds open-source software for AI, networking, Linux and systems engineering.</strong>
 
 </div>
 
@@ -29,7 +29,7 @@
 
 ### ⚡ AI Engineering
 
-**AXIOM** is our local-first AI engineering platform for taking models, datasets, training, evaluation and runtime workflows into one focused engineering environment.
+**AXIOM** is our local-first AI engineering platform for bringing models, datasets, training, evaluation, runtime and diagnostics into one focused engineering environment.
 
 <a href="https://github.com/NetCore-Technologies/AXIOM-AI">Explore AXIOM →</a>
 
@@ -72,9 +72,11 @@ Our projects favour local control, transparent behaviour, strong telemetry and t
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=115&text=AXIOM&fontSize=64&fontColor=FFFFFF&fontAlignY=54&animation=twinkling&color=0:DB285F,38:9560E7,70:4779FF,100:19E6FF" width="92%" alt="AXIOM" />
 
-### **Build AI. Own AI.**
+### <strong>Build AI. Own AI.</strong>
 
 Models · Datasets · Training · Evaluation · Runtime · MCP · Diagnostics · Telemetry
+
+<br>
 
 <a href="https://github.com/NetCore-Technologies/AXIOM-AI">
 <img src="https://img.shields.io/badge/OPEN%20AXIOM-%23FFFFFF?style=for-the-badge&labelColor=04050A&color=9560E7" alt="Open AXIOM" />
@@ -92,7 +94,7 @@ Models · Datasets · Training · Evaluation · Runtime · MCP · Diagnostics ·
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### AXIOM AI
 
@@ -103,7 +105,7 @@ Local-first AI engineering and the AXIOM Control Center.
 <a href="https://github.com/NetCore-Technologies/AXIOM-AI">Repository →</a>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### QuantumGrid OS
 
@@ -116,7 +118,7 @@ Performance-focused networking OS engineering for modern routing hardware.
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### WiFi Analyzer Pro
 
@@ -127,7 +129,7 @@ Real-time Wi-Fi diagnostics and network intelligence.
 <a href="https://github.com/manit6752025/wifi-analyzer-pro">Repository →</a>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### NetCore Engineering
 
@@ -189,8 +191,7 @@ OBSERVABLE        Make behaviour visible instead of hiding it.
 PERFORMANT        Respect the hardware and remove unnecessary overhead.
 MODULAR           Build systems that can evolve without becoming opaque.
 OPEN              Prefer inspectable, community-driven technology.
-
-``` 
+```
 
 ---
 
@@ -228,8 +229,10 @@ OPEN              Prefer inspectable, community-driven technology.
 
 <br><br>
 
-**NetCore Technologies**
+<strong>NetCore Technologies</strong>
 
-*Build systems worth owning.*
+<br>
+
+<em>Build systems worth owning.</em>
 
 </div>
