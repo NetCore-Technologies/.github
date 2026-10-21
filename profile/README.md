@@ -155,9 +155,9 @@ A growing collection of networking, Linux and developer-focused open-source work
 
 ### Repository & engineering stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=NetCore-Technologies&show_icons=true&hide_border=true&bg_color=04050A&title_color=FFFFFF&text_color=9AA9BC&icon_color=4779FF&ring_color=DB285F&include_all_commits=true&count_private=true&custom_title=NetCore%20Technologies%20Engineering%20Stats" height="180" alt="NetCore Technologies GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=manit6752025&show_icons=true&hide_border=true&bg_color=04050A&title_color=FFFFFF&text_color=9AA9BC&icon_color=4779FF&ring_color=DB285F&include_all_commits=true&count_private=true&custom_title=NetCore%20Technologies%20Engineering%20Stats" height="180" alt="NetCore Technologies GitHub stats" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NetCore-Technologies&layout=compact&hide_border=true&bg_color=04050A&title_color=FFFFFF&text_color=9AA9BC&langs_count=8&custom_title=Primary%20Languages" height="180" alt="NetCore Technologies languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taxcollector23&layout=compact&hide_border=true&bg_color=04050A&title_color=FFFFFF&text_color=9AA9BC&langs_count=8&custom_title=Primary%20Languages" height="180" alt="NetCore Technologies languages" />
 
 </div>
 
