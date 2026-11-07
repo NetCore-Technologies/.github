@@ -17,6 +17,12 @@
 
 <strong>NetCore Technologies builds open-source software for AI, networking, Linux and systems engineering.</strong>
 
+<br><br>
+
+<a href="https://github.com/NetCore-Technologies?tab=repositories">Repositories</a> ·
+<a href="https://netcore-technologies.github.io/AXIOM-AI/">AXIOM Website</a> ·
+<a href="https://github.com/NetCore-Technologies/AXIOM-AI/issues">Report an issue</a>
+
 </div>
 
 ---
@@ -29,7 +35,7 @@
 
 ### ⚡ AI Engineering
 
-**AXIOM** is our local-first AI engineering platform for bringing models, datasets, training, evaluation, runtime and diagnostics into one focused engineering environment.
+**AXIOM** is our local-first AI engineering platform. Models, datasets, training, evaluation, runtime and diagnostics, all in one focused environment.
 
 <a href="https://github.com/NetCore-Technologies/AXIOM-AI">Explore AXIOM →</a>
 
@@ -38,7 +44,7 @@
 
 ### ◉ Network Engineering
 
-We build tools and operating-system work around Wi-Fi, routing, diagnostics, acceleration, telemetry, performance and Linux networking.
+Tools and OS work around Wi-Fi, routing, diagnostics, acceleration, telemetry, performance and Linux networking.
 
 <a href="https://github.com/NetCore-Technologies/QuantumGrid-OS">Explore QuantumGrid OS →</a>
 
@@ -49,14 +55,14 @@ We build tools and operating-system work around Wi-Fi, routing, diagnostics, acc
 
 ### ◇ Developer Tools
 
-Practical engineering utilities for developers who want observability, automation and useful interfaces rather than black boxes.
+Practical utilities for developers who want observability, automation and useful interfaces rather than black boxes.
 
 </td>
 <td width="50%" valign="top">
 
 ### ◎ Local-first systems
 
-Our projects favour local control, transparent behaviour, strong telemetry and the ability to understand the software you run.
+Local control, transparent behaviour, strong telemetry, and the ability to understand the software you run.
 
 </td>
 </tr>
@@ -81,7 +87,6 @@ Models · Datasets · Training · Evaluation · Runtime · MCP · Diagnostics ·
 <a href="https://github.com/NetCore-Technologies/AXIOM-AI">
 <img src="https://img.shields.io/badge/OPEN%20AXIOM-%23FFFFFF?style=for-the-badge&labelColor=04050A&color=9560E7" alt="Open AXIOM" />
 </a>
-
 <a href="https://netcore-technologies.github.io/AXIOM-AI/">
 <img src="https://img.shields.io/badge/AXIOM%20WEBSITE-%23FFFFFF?style=for-the-badge&labelColor=04050A&color=4779FF" alt="AXIOM Website" />
 </a>
@@ -131,7 +136,7 @@ Real-time Wi-Fi diagnostics and network intelligence.
 </td>
 <td width="50%" valign="top">
 
-### NetCore Engineering
+### More coming
 
 A growing collection of networking, Linux and developer-focused open-source work.
 
@@ -143,37 +148,23 @@ A growing collection of networking, Linux and developer-focused open-source work
 
 ---
 
-# ◈ GitHub activity
+## ◈ Live org stats
 
 <div align="center">
 
-### Contribution graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NetCore-Technologies&bg_color=04050A&color=FFFFFF&line=4779FF&point=DB285F&area=true&area_color=9560E7&hide_border=true&custom_title=NetCore%20Technologies%20Contribution%20Graph" width="96%" alt="NetCore Technologies contribution graph" />
-
-<br>
-
-### Repository & engineering stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=manit6752025&show_icons=true&hide_border=true&bg_color=04050A&title_color=FFFFFF&text_color=9AA9BC&icon_color=4779FF&ring_color=DB285F&include_all_commits=true&count_private=true&custom_title=NetCore%20Technologies%20Engineering%20Stats" height="180" alt="NetCore Technologies GitHub stats" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taxcollector23&layout=compact&hide_border=true&bg_color=04050A&title_color=FFFFFF&text_color=9AA9BC&langs_count=8&custom_title=Primary%20Languages" height="180" alt="NetCore Technologies languages" />
+<!--START_STATS-->
+<!--END_STATS-->
 
 </div>
 
----
+## ◈ Latest repositories
 
-# ◈ Achievements
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=NetCore-Technologies&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&column=6" width="96%" alt="NetCore Technologies achievements" />
-
-</div>
+<!--START_REPOS-->
+<!--END_REPOS-->
 
 ---
 
-# ◈ Engineering philosophy
+## ◈ Engineering philosophy
 
 <div align="center">
 
@@ -199,7 +190,7 @@ OPEN              Prefer inspectable, community-driven technology.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=linux,python,typescript,react,bash,git,github,docker" alt="Technology stack" />
+<img src="https://skillicons.dev/icons?i=linux,python,typescript,react,bash,git,github,docker,cpp" alt="Technology stack" />
 
 <br><br>
 
@@ -209,13 +200,24 @@ OPEN              Prefer inspectable, community-driven technology.
 
 ---
 
+## ◈ Get involved
+
+| | |
+|---|---|
+| **Found a bug?** | Open an issue on the repo it affects |
+| **Want to contribute?** | Fork, branch, and open a pull request |
+| **Have an idea?** | Start a discussion on the repo |
+| **Security issue?** | Report it privately through the repo's Security tab |
+
+---
+
 <div align="center">
 
 ## CURRENT SIGNAL
 
-<img src="https://img.shields.io/badge/AXIOM-AI%20ENGINEERING-04050A?style=for-the-flat-square&labelColor=DB285F&color=9560E7" alt="AXIOM" />
-<img src="https://img.shields.io/badge/QUANTUMGRID-NETWORKING-04050A?style=for-the-flat-square&labelColor=4779FF&color=19E6FF" alt="QuantumGrid" />
-<img src="https://img.shields.io/badge/WIFI%20TOOLS-DIAGNOSTICS-04050A?style=for-the-flat-square&labelColor=42DF9D&color=4779FF" alt="WiFi Tools" />
+<img src="https://img.shields.io/badge/AXIOM-AI%20ENGINEERING-04050A?style=flat-square&labelColor=DB285F&color=9560E7" alt="AXIOM" />
+<img src="https://img.shields.io/badge/QUANTUMGRID-NETWORKING-04050A?style=flat-square&labelColor=4779FF&color=19E6FF" alt="QuantumGrid" />
+<img src="https://img.shields.io/badge/WIFI%20TOOLS-DIAGNOSTICS-04050A?style=flat-square&labelColor=42DF9D&color=4779FF" alt="WiFi Tools" />
 
 <br><br>
 
