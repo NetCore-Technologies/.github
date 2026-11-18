@@ -1,240 +1,90 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=NETCORE%20TECHNOLOGIES&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=OPEN%20SOURCE%20NETWORKING%20%7C%20AI%20%7C%20SYSTEM%20ENGINEERING&descAlignY=61&descSize=15&animation=fadeIn&color=0:04050A,30:0B1020,58:4779FF,82:9560E7,100:DB285F" width="100%" alt="NetCore Technologies" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:090A0F,35:14213D,70:6C3BFF,100:00D4FF&height=220&section=header&text=NETCORE%20TECHNOLOGIES&fontSize=48&fontColor=FFFFFF&fontAlignY=36&desc=Building%20things%20that%20make%20technology%20better&descAlignY=57&descSize=17&animation=fadeIn" alt="NetCore Technologies banner"/>
 
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=24&duration=3000&pause=900&color=FFFFFF&center=true&vCenter=true&width=850&lines=Build+AI.+Own+AI.;Engineer+the+network.;Build+systems+worth+owning.;Open+source.+Local-first.+Performance-driven." alt="NetCore Technologies typing animation" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/OPEN%20SOURCE-04050A?style=for-the-badge&labelColor=DB285F&color=9560E7" alt="Open Source" />
-<img src="https://img.shields.io/badge/AI-04050A?style=for-the-badge&labelColor=9560E7&color=4779FF" alt="AI" />
-<img src="https://img.shields.io/badge/NETWORKING-04050A?style=for-the-badge&labelColor=4779FF&color=19E6FF" alt="Networking" />
-<img src="https://img.shields.io/badge/LINUX-04050A?style=for-the-badge&labelColor=42DF9D&color=4779FF" alt="Linux" />
-
-<br><br>
-
-<strong>NetCore Technologies builds open-source software for AI, networking, Linux and systems engineering.</strong>
-
-<br><br>
-
-<a href="https://github.com/NetCore-Technologies?tab=repositories">Repositories</a> ·
-<a href="https://netcore-technologies.github.io/AXIOM-AI/">AXIOM Website</a> ·
-<a href="https://github.com/NetCore-Technologies/AXIOM-AI/issues">Report an issue</a>
-
-</div>
-
----
-
-## ◈ What we build
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ⚡ AI Engineering
-
-**AXIOM** is our local-first AI engineering platform. Models, datasets, training, evaluation, runtime and diagnostics, all in one focused environment.
-
-<a href="https://github.com/NetCore-Technologies/AXIOM-AI">Explore AXIOM →</a>
-
-</td>
-<td width="50%" valign="top">
-
-### ◉ Network Engineering
-
-Tools and OS work around Wi-Fi, routing, diagnostics, acceleration, telemetry, performance and Linux networking.
-
-<a href="https://github.com/NetCore-Technologies/QuantumGrid-OS">Explore QuantumGrid OS →</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ◇ Developer Tools
-
-Practical utilities for developers who want observability, automation and useful interfaces rather than black boxes.
-
-</td>
-<td width="50%" valign="top">
-
-### ◎ Local-first systems
-
-Local control, transparent behaviour, strong telemetry, and the ability to understand the software you run.
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-# AXIOM
-
-### AI ENGINEERING PLATFORM
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=115&text=AXIOM&fontSize=64&fontColor=FFFFFF&fontAlignY=54&animation=twinkling&color=0:DB285F,38:9560E7,70:4779FF,100:19E6FF" width="92%" alt="AXIOM" />
-
-### <strong>Build AI. Own AI.</strong>
-
-Models · Datasets · Training · Evaluation · Runtime · MCP · Diagnostics · Telemetry
-
-<br>
-
-<a href="https://github.com/NetCore-Technologies/AXIOM-AI">
-<img src="https://img.shields.io/badge/OPEN%20AXIOM-%23FFFFFF?style=for-the-badge&labelColor=04050A&color=9560E7" alt="Open AXIOM" />
-</a>
-<a href="https://netcore-technologies.github.io/AXIOM-AI/">
-<img src="https://img.shields.io/badge/AXIOM%20WEBSITE-%23FFFFFF?style=for-the-badge&labelColor=04050A&color=4779FF" alt="AXIOM Website" />
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=700&color=00D4FF&center=true&vCenter=true&width=850&lines=AI+systems+%7C+Developer+tools+%7C+Networking;Open-source+software+that+actually+works;Build.+Test.+Document.+Ship." alt="Animated typing text"/>
 </a>
 
-</div>
-
----
-
-## ◈ Featured projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### AXIOM AI
-
-Local-first AI engineering and the AXIOM Control Center.
-
-**Python · React · TypeScript · AI tooling**
-
-<a href="https://github.com/NetCore-Technologies/AXIOM-AI">Repository →</a>
-
-</td>
-<td width="50%" valign="top">
-
-### QuantumGrid OS
-
-Performance-focused networking OS engineering for modern routing hardware.
-
-**OpenWrt · Linux · Wi-Fi · acceleration · telemetry**
-
-<a href="https://github.com/NetCore-Technologies/QuantumGrid-OS">Repository →</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### WiFi Analyzer Pro
-
-Real-time Wi-Fi diagnostics and network intelligence.
-
-**Python · React · wireless analysis · system telemetry**
-
-<a href="https://github.com/manit6752025/wifi-analyzer-pro">Repository →</a>
-
-</td>
-<td width="50%" valign="top">
-
-### More coming
-
-A growing collection of networking, Linux and developer-focused open-source work.
-
-**Open source · systems · automation · tooling**
-
-</td>
-</tr>
-</table>
-
----
-
-## ◈ Live org stats
-
-<div align="center">
-
-<!--START_STATS-->
-<!--END_STATS-->
-
-</div>
-
-## ◈ Latest repositories
-
-<!--START_REPOS-->
-<!--END_REPOS-->
-
----
-
-## ◈ Engineering philosophy
-
-<div align="center">
-
-### OWN THE STACK.
-
-### UNDERSTAND THE SYSTEM.
-
-### ENGINEER THE EXPERIENCE.
-
-</div>
-
-```text
-LOCAL-FIRST       Keep important capabilities close to the operator.
-OBSERVABLE        Make behaviour visible instead of hiding it.
-PERFORMANT        Respect the hardware and remove unnecessary overhead.
-MODULAR           Build systems that can evolve without becoming opaque.
-OPEN              Prefer inspectable, community-driven technology.
-```
-
----
-
-## ◈ Technology
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=linux,python,typescript,react,bash,git,github,docker,cpp" alt="Technology stack" />
-
-<br><br>
-
-`Linux` · `OpenWrt` · `Python` · `React` · `TypeScript` · `C/C++` · `Bash` · `Git`
+<p>
+  <a href="https://github.com/NetCore-Technologies"><img src="https://img.shields.io/badge/GitHub-NetCore--Technologies-181717?style=for-the-badge&logo=github" alt="GitHub org"/></a>
+  <a href="https://github.com/NetCore-Technologies/AXIOM-AI"><img src="https://img.shields.io/badge/Flagship-AXIOM--AI-6C3BFF?style=for-the-badge&logo=github" alt="AXIOM-AI"/></a>
+</p>
 
 </div>
 
 ---
 
-## ◈ Get involved
+## About NetCore Technologies
 
-| | |
+NetCore Technologies is an open-source technology company building **AI tools, developer software, and networking utilities**.
+
+We make software that is useful, tested, and documented, not just impressive in a screenshot.
+
+**What we believe in**
+
+- 🧪 **Tested:** features should be backed by tests, not just promises.
+- 📖 **Documented:** if people can't figure out how to use it, it isn't finished.
+- 🔓 **Open:** we build in the open and welcome feedback.
+- 🎯 **Practical:** we focus on tools that solve real problems.
+
+---
+
+## What we build
+
+### 🧠 [AXIOM-AI](https://github.com/NetCore-Technologies/AXIOM-AI)
+
+Our flagship project: a local-first AI command-line tool and workspace for model experimentation, dataset workflows, evaluation, and developer tooling.
+
+- Powerful CLI for automation and advanced workflows
+- GUI planned so features are easy to discover
+- Built to be maintainable, documented, and testable
+
+[![Stars](https://img.shields.io/github/stars/NetCore-Technologies/AXIOM-AI?style=flat-square&label=stars)](https://github.com/NetCore-Technologies/AXIOM-AI/stargazers)
+[![Release](https://img.shields.io/github/v/release/NetCore-Technologies/AXIOM-AI?include_prereleases&sort=semver&style=flat-square&label=release)](https://github.com/NetCore-Technologies/AXIOM-AI/releases)
+[![Issues](https://img.shields.io/github/issues/NetCore-Technologies/AXIOM-AI?style=flat-square)](https://github.com/NetCore-Technologies/AXIOM-AI/issues)
+
+### 🧩 QuantumGrid OS
+
+A systems project exploring operating-system concepts, Linux tooling, and network-aware infrastructure.
+
+---
+
+## Focus areas
+
+| Area | What we work on |
 |---|---|
-| **Found a bug?** | Open an issue on the repo it affects |
-| **Want to contribute?** | Fork, branch, and open a pull request |
-| **Have an idea?** | Start a discussion on the repo |
-| **Security issue?** | Report it privately through the repo's Security tab |
+| **AI & data** | Model workflows, dataset tooling, evaluation, experimentation |
+| **Developer tools** | CLIs, APIs, diagnostics, automated testing, release workflows |
+| **Networking** | Wi-Fi, DNS, routers, OpenWrt, network diagnostics |
+| **Systems** | Linux, self-hosted infrastructure, reproducible builds |
+| **Frontend** | React, Vite, accessible interfaces |
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,ts,js,react,vite,bash,linux,git,github,docker,sqlite,fastapi&perline=12" alt="Technology icons"/>
+
+</div>
+
+---
+
+## Get involved
+
+We welcome contributions of all sizes.
+
+1. 🔍 Browse our [repositories](https://github.com/orgs/NetCore-Technologies/repositories)
+2. 🐛 Open an issue for a bug, idea, or improvement
+3. 🔧 Send a pull request, and keep it small, focused, and tested
+4. 📖 Help improve our documentation
+
+**Good bug reports include:** what you expected, what happened, and steps to reproduce.
 
 ---
 
 <div align="center">
 
-## CURRENT SIGNAL
+### *Build with curiosity. Debug with patience. Ship with purpose.*
 
-<img src="https://img.shields.io/badge/AXIOM-AI%20ENGINEERING-04050A?style=flat-square&labelColor=DB285F&color=9560E7" alt="AXIOM" />
-<img src="https://img.shields.io/badge/QUANTUMGRID-NETWORKING-04050A?style=flat-square&labelColor=4779FF&color=19E6FF" alt="QuantumGrid" />
-<img src="https://img.shields.io/badge/WIFI%20TOOLS-DIAGNOSTICS-04050A?style=flat-square&labelColor=42DF9D&color=4779FF" alt="WiFi Tools" />
-
-<br><br>
-
-<a href="https://github.com/NetCore-Technologies?tab=repositories">
-<img src="https://img.shields.io/badge/VIEW%20ALL%20PROJECTS-%23FFFFFF?style=for-the-badge&labelColor=04050A&color=11121B" alt="View all projects" />
-</a>
-
-<br><br>
-
-<sub>Open Source Networking Tools · WiFi & Network Engineering · Linux · OpenWrt · React · Python</sub>
-
-<br><br>
-
-<strong>NetCore Technologies</strong>
-
-<br>
-
-<em>Build systems worth owning.</em>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,35:6C3BFF,70:14213D,100:090A0F&height=120&section=footer" alt="Footer banner"/>
 
 </div>
