@@ -19,7 +19,7 @@
 
 ---
 
-## `whoami` — Hello, world 👋
+## `whoarewe` — Hello, world 👋
 
 **NetCore Technologies** is a small open-source company building developer tools, networking software and systems projects. We like software that is useful, testable and documented, not just impressive in a screenshot.
 
