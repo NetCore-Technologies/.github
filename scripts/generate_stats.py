@@ -275,4 +275,281 @@ def stats_svg(d):
         out += (
             f'<g class="row" style="animation-delay:{dl:.2f}s">'
             f'<text x="24" y="{y}" class="l">{escape(k)}</text>'
-            f'<text x="224" y="{y}" class="v" text-anchor="end">{fmt(v)}
+            f'<text x="224" y="{y}" class="v" text-anchor="end">{fmt(v)}</text>'
+            f'<rect x="24" y="{y + 5}" width="200" height="3" rx="1.5" fill="#14213D"/>'
+            f'<rect class="bar" x="24" y="{y + 5}" width="{wb:.0f}" height="3" rx="1.5" fill="url(#ac)" style="animation-delay:{dl + .3:.2f}s"/>'
+            f'</g>'
+        )
+    sc = score(d)
+    frac = max(min(sc / 8000, 1), .05)
+    c = 2 * math.pi * 48
+    o = c * (1 - frac)
+    out += (
+        '<circle cx="330" cy="124" r="48" fill="none" stroke="#14213D" stroke-width="9"/>'
+        f'<circle class="ring" cx="330" cy="124" r="48" fill="none" stroke="url(#ac)" stroke-width="9" stroke-linecap="round" transform="rotate(-90 330 124)" filter="url(#gl)" style="--c:{c:.1f};--o:{o:.1f};stroke-dasharray:{c:.1f}"/>'
+        '<text x="330" y="112" class="l" text-anchor="middle">RANK</text>'
+        f'<text x="330" y="141" class="big pulse" text-anchor="middle">{grade(sc)}</text>'
+    )
+    return frame(410, 220, out)
+
+
+def langs_svg(d):
+    langs = d["langs"]
+    out = head("Most Used Languages")
+    out += '<clipPath id="lb"><rect x="24" y="54" width="362" height="12" rx="6"/></clipPath>'
+    out += '<rect x="24" y="54" width="362" height="12" rx="6" fill="#14213D"/><g clip-path="url(#lb)">'
+    cum = 0.0
+    for i, (name, pct) in enumerate(langs):
+        wd = pct * 3.62
+        out += f'<rect class="bar" x="{24 + cum * 3.62:.1f}" y="54" width="{wd:.1f}" height="12" fill="{PALETTE[i % 6]}" style="animation-delay:{i * .15:.2f}s"/>'
+        cum += pct
+    out += '</g>'
+    for i, (name, pct) in enumerate(langs):
+        x = 24 + (i % 2) * 185
+        y = 104 + (i // 2) * 42
+        out += (
+            f'<g class="row" style="animation-delay:{.4 + i * .12:.2f}s">'
+            f'<circle class="pulse" cx="{x + 6}" cy="{y - 4}" r="6" fill="{PALETTE[i % 6]}" style="animation-delay:{i * .3:.1f}s"/>'
+            f'<text x="{x + 20}" y="{y}" class="v" style="font-size:15px">{escape(str(name))}</text>'
+            f'<text x="{x + 20}" y="{y + 17}" class="l">{pct}%</text></g>'
+        )
+    return frame(410, 220, out)
+
+
+def streak_svg(d):
+    out = head("Contribution Streak")
+    out += '<line x1="137" y1="56" x2="137" y2="148" stroke="#6C3BFF" stroke-opacity=".3"/><line x1="273" y1="56" x2="273" y2="148" stroke="#6C3BFF" stroke-opacity=".3"/>'
+    out += (
+        f'<g class="row"><text x="68" y="106" class="big" text-anchor="middle" style="font-size:26px">{fmt(d["total"])}</text>'
+        '<text x="68" y="140" class="l" text-anchor="middle" style="font-size:10px">CONTRIBUTIONS</text></g>'
+        f'<g class="row" style="animation-delay:.3s"><text x="342" y="106" class="big" text-anchor="middle" style="font-size:26px">{fmt(d["longest"])}</text>'
+        '<text x="342" y="140" class="l" text-anchor="middle" style="font-size:10px">LONGEST STREAK</text></g>'
+    )
+    frac = max(min(d["current"] / max(d["longest"], 1), 1), .06)
+    c = 2 * math.pi * 34
+    o = c * (1 - frac)
+    out += (
+        '<circle cx="205" cy="96" r="34" fill="none" stroke="#14213D" stroke-width="7"/>'
+        f'<circle class="ring" cx="205" cy="96" r="34" fill="none" stroke="url(#ac)" stroke-width="7" stroke-linecap="round" transform="rotate(-90 205 96)" filter="url(#gl)" style="--c:{c:.1f};--o:{o:.1f};stroke-dasharray:{c:.1f}"/>'
+        '<g transform="translate(205,74) scale(.6)"><path class="flame" d="M0 -12 C6 -4 8 0 4 8 C2 12 -2 12 -4 8 C-7 3 -2 -2 0 -12Z" fill="#00D4FF" filter="url(#gl)"/></g>'
+        f'<text x="205" y="110" class="big" text-anchor="middle" style="font-size:22px">{fmt(d["current"])}</text>'
+        '<text x="205" y="140" class="l" text-anchor="middle" style="font-size:10px">CURRENT STREAK</text>'
+    )
+    days = d["days"] if len(d["days"]) > 1 else [0, 0]
+    m = max(days + [1])
+    step = 362 / (len(days) - 1)
+    pts = " ".join(f"{24 + i * step:.1f},{206 - n / m * 30:.1f}" for i, n in enumerate(days))
+    out += f'<polyline class="draw" pathLength="1" points="{pts}" fill="none" stroke="url(#ac)" stroke-width="2" stroke-linejoin="round" filter="url(#gl)"/>'
+    return frame(410, 220, out)
+
+
+def hexpts(cx, cy, r):
+    return " ".join(
+        f"{cx + r * math.cos(math.radians(60 * k - 30)):.1f},{cy + r * math.sin(math.radians(60 * k - 30)):.1f}"
+        for k in range(6)
+    )
+
+
+def ach_svg(d):
+    if KIND == "org":
+        items = [("REPOS", d["repos"]), ("STARS", d["stars"]), ("FORKS", d["forks"]),
+                 ("FOLLOWERS", d["followers"]), ("MERGED", d["merged"]), ("ISSUES", d["issues_open"])]
+    else:
+        items = [("COMMITS", d["commits"]), ("STARS", d["stars"]), ("REPOS", d["repos"]),
+                 ("FOLLOWERS", d["followers"]), ("STREAK", d["longest"]), ("MERGED", d["merged"])]
+    out = head("Achievements")
+    for i, (label, val) in enumerate(items):
+        cx = 50 + i * 62
+        cy = 102
+        out += (
+            f'<g class="pop" style="animation-delay:{i * .15:.2f}s">'
+            f'<polygon class="spin" points="{hexpts(cx, cy, 31)}" fill="none" stroke="#6C3BFF" stroke-width="1.5" stroke-dasharray="4 4"/>'
+            f'<polygon points="{hexpts(cx, cy, 25)}" fill="#14213D" stroke="url(#ac)" stroke-width="2" filter="url(#gl)"/>'
+            f'<text x="{cx}" y="{cy + 4}" class="v" text-anchor="middle" style="font-size:11px">{fmt(val)}</text>'
+            f'<text x="{cx}" y="{cy + 52}" class="l" text-anchor="middle" style="font-size:9px">{label}</text></g>'
+        )
+    out += '<rect x="24" y="188" width="362" height="3" rx="1.5" fill="#14213D"/>'
+    out += '<rect class="bar" x="24" y="188" width="362" height="3" rx="1.5" fill="url(#ac)" style="animation-delay:1s"/>'
+    out += '<text x="205" y="208" class="l pulse" text-anchor="middle" style="font-size:10px">LIVE FROM GITHUB</text>'
+    return frame(410, 220, out)
+
+
+def graph_svg(d, title):
+    cal = d.get("cal") or []
+    if not cal:
+        cal = [[date.today().isoformat(), 0]]
+    parsed = [(date.fromisoformat(a), b) for a, b in cal]
+    first = parsed[0][0]
+    start = first.toordinal() - ((first.weekday() + 1) % 7)
+    top = max([n for _, n in parsed] + [1])
+    cols = 1
+    cells = ""
+    months = ""
+    last_month = None
+    last_col = -9
+    for dt, n in parsed:
+        idx = dt.toordinal() - start
+        col, row = idx // 7, idx % 7
+        cols = max(cols, col + 1)
+        lvl = 0 if n <= 0 else min(4, 1 + int(3 * n / top))
+        x = 24 + col * 14
+        y = 56 + row * 14
+        rect = f'<rect class="cell" x="{x}" y="{y}" width="11" height="11" rx="3" fill="{SHADES[lvl]}" style="animation-delay:{col * .025:.2f}s"/>'
+        if lvl == 4:
+            cells += f'<g class="pulse" style="animation-delay:{col * .1:.1f}s">{rect}</g>'
+        else:
+            cells += rect
+        if dt.month != last_month:
+            if col - last_col >= 3:
+                months += f'<text x="{x}" y="50" class="l" style="font-size:9px">{dt.strftime("%b")}</text>'
+                last_col = col
+            last_month = dt.month
+    w = max(410, 48 + cols * 14 - 3)
+    total = sum(n for _, n in parsed)
+    best = max(n for _, n in parsed)
+    lx = w - 24 - 5 * 14 - 30
+    foot = f'<text x="24" y="177" class="l">{fmt(total)} contributions · best day {fmt(best)}</text>'
+    foot += f'<text x="{lx - 6}" y="177" class="l" text-anchor="end" style="font-size:9px">Less</text>'
+    for i, s in enumerate(SHADES):
+        foot += f'<rect x="{lx + i * 14}" y="167" width="11" height="11" rx="3" fill="{s}"/>'
+    foot += f'<text x="{lx + 5 * 14 + 2}" y="177" class="l" style="font-size:9px">More</text>'
+    return frame(w, 194, head(title) + months + cells + foot)
+
+
+def ago(iso):
+    try:
+        t = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        days = (datetime.now(timezone.utc) - t).days
+    except Exception:
+        return "unknown"
+    if days <= 0:
+        return "today"
+    if days == 1:
+        return "1 day ago"
+    if days < 60:
+        return f"{days} days ago"
+    return f"{days // 30} months ago"
+
+
+def refresh_project(full, p):
+    info = call(f"{API}/repos/{full}")
+    p["name"] = info.get("name", p["name"])
+    p["desc"] = info.get("description") or ""
+    p["stars"] = info.get("stargazers_count", 0)
+    p["forks"] = info.get("forks_count", 0)
+    p["issues"] = info.get("open_issues_count", 0)
+    p["lang"] = info.get("language") or "n/a"
+    p["pushed"] = info.get("pushed_at") or ""
+    p["license"] = (info.get("license") or {}).get("spdx_id") or "none"
+    try:
+        rel = call(f"{API}/repos/{full}/releases/latest")
+        p["release"] = rel.get("tag_name") or "none"
+    except Exception:
+        try:
+            tags = call(f"{API}/repos/{full}/tags?per_page=1")
+            p["release"] = tags[0]["name"] if tags else "none"
+        except Exception as e:
+            log(e)
+
+
+def project_svg(p):
+    out = head(p["name"])
+    lines = textwrap.wrap(p["desc"] or "No description yet.", 46)[:2]
+    for i, line in enumerate(lines):
+        out += f'<text x="24" y="{60 + i * 16}" class="l row" style="animation-delay:{i * .1:.1f}s">{escape(line)}</text>'
+    tiles = [("STARS", p["stars"]), ("FORKS", p["forks"]), ("OPEN", p["issues"]), ("RELEASE", p["release"])]
+    for i, (label, val) in enumerate(tiles):
+        x = 24 + i * 92
+        is_text = isinstance(val, str)
+        shown = val[:11] if is_text else fmt(val)
+        size = 11 if is_text else 18
+        out += (
+            f'<g class="pop" style="animation-delay:{i * .15:.2f}s">'
+            f'<rect x="{x}" y="100" width="84" height="52" rx="8" fill="#14213D" stroke="url(#ac)" stroke-width="1.5"/>'
+            f'<text x="{x + 42}" y="124" class="v" text-anchor="middle" style="font-size:{size}px">{escape(shown)}</text>'
+            f'<text x="{x + 42}" y="142" class="l" text-anchor="middle" style="font-size:9px">{label}</text></g>'
+        )
+    out += (
+        '<circle class="pulse" cx="30" cy="180" r="5" fill="#00D4FF"/>'
+        f'<text x="42" y="184" class="v" style="font-size:12px">{escape(p["lang"])}</text>'
+        f'<text x="205" y="184" class="l" text-anchor="middle">{escape(p["license"])}</text>'
+        f'<text x="386" y="184" class="l" text-anchor="end">updated {escape(ago(p["pushed"]))}</text>'
+        '<rect x="24" y="200" width="362" height="3" rx="1.5" fill="#14213D"/>'
+        '<rect class="bar" x="24" y="200" width="362" height="3" rx="1.5" fill="url(#ac)" style="animation-delay:1s"/>'
+    )
+    return frame(410, 220, out)
+
+
+def write(name, svg):
+    try:
+        with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
+            f.write(svg)
+    except Exception as e:
+        log(e)
+
+
+def run_projects():
+    path = os.path.join(OUT, "projects-cache.json")
+    cache = {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            cache = json.load(f)
+    except Exception:
+        pass
+    for full in PROJECTS:
+        p = dict(PROJECT_DEFAULT)
+        p.update(cache.get(full, {}))
+        p["name"] = full.split("/")[-1]
+        try:
+            refresh_project(full, p)
+        except Exception as e:
+            log(e)
+        cache[full] = p
+        try:
+            write("project-" + p["name"].lower() + ".svg", project_svg(p))
+        except Exception as e:
+            log(e)
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(cache, f)
+    except Exception as e:
+        log(e)
+
+
+def main():
+    os.makedirs(OUT, exist_ok=True)
+    if KIND == "projects":
+        run_projects()
+        return
+    d = load_cache()
+    try:
+        refresh(d)
+    except Exception as e:
+        log(e)
+    try:
+        with open(CACHE, "w", encoding="utf-8") as f:
+            json.dump(d, f)
+    except Exception as e:
+        log(e)
+    cards = {
+        "stats.svg": stats_svg,
+        "langs.svg": langs_svg,
+        "achievements.svg": ach_svg,
+    }
+    if KIND == "user":
+        cards["streak.svg"] = streak_svg
+        cards["graph.svg"] = lambda data: graph_svg(data, "Contribution Graph")
+    elif MEMBERS:
+        cards["graph.svg"] = lambda data: graph_svg(data, "Team Contributions")
+    for name, fn in cards.items():
+        try:
+            write(name, fn(d))
+        except Exception as e:
+            log(e)
+
+
+try:
+    main()
+except Exception as e:
+    log(e)
+sys.exit(0)
