@@ -33,14 +33,13 @@ jobs:
           STATS_MEMBERS: manit6752025,TaxCollector23
         run: python3 scripts/generate_stats.py
 
-      - name: Founder cards
+      - name: Founder cards (Tax)
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           STATS_KIND: user
         run: |
           STATS_OWNER=TaxCollector23 STATS_TITLE="Tax · CEO" STATS_OUT=profile/stats/tax python3 scripts/generate_stats.py
-          STATS_OWNER=manit6752025 STATS_TITLE="Manit · Co-founder" STATS_OUT=profile/stats/manit python3 scripts/generate_stats.py
 
       - name: Project cards
         continue-on-error: true
