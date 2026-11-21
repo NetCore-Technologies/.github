@@ -12,6 +12,7 @@ from html import escape
 OWNER = os.environ.get("STATS_OWNER", "manit6752025")
 KIND = os.environ.get("STATS_KIND", "user")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
+EXTRA_ORGS = [o.strip() for o in os.environ.get("STATS_EXTRA_ORGS", "NetCore-Technologies").split(",") if o.strip()]
 OUT = os.environ.get("STATS_OUT", "stats")
 MEMBERS = [m.strip() for m in os.environ.get("STATS_MEMBERS", "").split(",") if m.strip()]
 PROJECTS = [p.strip() for p in os.environ.get("STATS_PROJECTS", "").split(",") if p.strip()]
@@ -156,6 +157,18 @@ def refresh(d):
             repos += batch
             if len(batch) < 100:
                 break
+        if KIND == "user":
+            seen = {r["full_name"] for r in repos}
+            for org in EXTRA_ORGS:
+                try:
+                    for page in range(1, 6):
+                        batch = call(f"{API}/orgs/{org}/repos?per_page=100&page={page}&type=all")
+                        repos += [r for r in batch if r["full_name"] not in seen]
+                        if len(batch) < 100:
+                            break
+                except Exception as e:
+                    log(e)
+            d["repos"] = sum(1 for r in repos if not r.get("private"))
         d["stars"] = sum(r.get("stargazers_count", 0) for r in repos)
         d["forks"] = sum(r.get("forks_count", 0) for r in repos)
         d["issues_open"] = sum(r.get("open_issues_count", 0) for r in repos)
