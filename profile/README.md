@@ -153,6 +153,8 @@
 <img src="https://raw.githubusercontent.com/manit6752025/manit6752025/main/stats/streak.svg" width="49%" alt="manit6752025 streak"/>
 <img src="https://raw.githubusercontent.com/manit6752025/manit6752025/main/stats/achievements.svg" width="49%" alt="manit6752025 achievements"/>
 
+<img src="https://raw.githubusercontent.com/NetCore-Technologies/.github/main/profile/stats/manit/graph.svg" width="98%" alt="Manit6752025 Contribution Grapph"/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manit6752025/manit6752025/output/pacman-contribution-graph-dark.svg"/>
   <img src="https://raw.githubusercontent.com/manit6752025/manit6752025/output/pacman-contribution-graph.svg" width="98%" alt="manit6752025 Pac-Man graph"/>
