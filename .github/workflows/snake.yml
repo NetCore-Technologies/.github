@@ -1,4 +1,4 @@
-name: Generate Snakes
+name: Generate Snake and Arcade
 
 on:
   schedule:
@@ -13,10 +13,28 @@ permissions:
   contents: write
 
 jobs:
-  snake:
+  arcade:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - uses: Platane/snk/svg-only@v3
+      - name: Tax Pac-Man and Breakout
+        uses: abozanona/pacman-contribution-graph@main
+        continue-on-error: true
+        with:
+          github_user_name: TaxCollector23
+          games: "pacman,breakout"
+
+      - name: Set Tax arcade files aside
+        continue-on-error: true
+        run: |
+          shopt -s nullglob
+          mkdir -p keep dist
+          for f in dist/*-contribution-graph*.svg; do
+            mv "$f" "keep/tax-$(basename "$f")"
+          done
+
+      - name: Tax snake
+        uses: Platane/snk/svg-only@v3
         continue-on-error: true
         with:
           github_user_name: TaxCollector23
@@ -24,15 +42,14 @@ jobs:
             dist/snake-tax.svg?color_snake=%2300D4FF&color_dots=%23161b22,%232a1f6b,%234a2fb8,%236C3BFF,%2300D4FF
             dist/snake-tax-dark.svg?palette=github-dark&color_snake=%2300D4FF&color_dots=%23161b22,%232a1f6b,%234a2fb8,%236C3BFF,%2300D4FF
 
-      - uses: Platane/snk/svg-only@v3
+      - name: Put arcade files back
         continue-on-error: true
-        with:
-          github_user_name: manit6752025
-          outputs: |
-            dist/snake-manit.svg?color_snake=%2300D4FF&color_dots=%23161b22,%232a1f6b,%234a2fb8,%236C3BFF,%2300D4FF
-            dist/snake-manit-dark.svg?palette=github-dark&color_snake=%2300D4FF&color_dots=%23161b22,%232a1f6b,%234a2fb8,%236C3BFF,%2300D4FF
+        run: |
+          mkdir -p dist
+          cp keep/*.svg dist/ || true
 
-      - uses: crazy-max/ghaction-github-pages@v4
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         continue-on-error: true
         with:
           target_branch: output
