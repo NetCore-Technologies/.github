@@ -132,8 +132,13 @@
 <img src="https://raw.githubusercontent.com/NetCore-Technologies/.github/main/profile/stats/tax/graph.svg" width="98%" alt="TaxCollector23 contribution graph"/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NetCore-Technologies/.github/output/snake-tax-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/NetCore-Technologies/.github/output/snake-tax.svg" width="98%" alt="TaxCollector23 contribution snake"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NetCore-Technologies/.github/output/tax-pacman-contribution-graph-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/NetCore-Technologies/.github/output/tax-pacman-contribution-graph.svg" width="98%" alt="TaxCollector23 Pac-Man graph"/>
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NetCore-Technologies/.github/output/tax-breakout-contribution-graph-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/NetCore-Technologies/.github/output/tax-breakout-contribution-graph.svg" width="98%" alt="TaxCollector23 Breakout graph"/>
 </picture>
 
 </div>
@@ -149,8 +154,13 @@
 <img src="https://raw.githubusercontent.com/manit6752025/manit6752025/main/stats/achievements.svg" width="49%" alt="manit6752025 achievements"/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manit6752025/manit6752025/output/snake-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/manit6752025/manit6752025/output/snake.svg" width="98%" alt="manit6752025 contribution snake"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manit6752025/manit6752025/output/pacman-contribution-graph-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/manit6752025/manit6752025/output/pacman-contribution-graph.svg" width="98%" alt="manit6752025 Pac-Man graph"/>
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manit6752025/manit6752025/output/breakout-contribution-graph-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/manit6752025/manit6752025/output/breakout-contribution-graph.svg" width="98%" alt="manit6752025 Breakout graph"/>
 </picture>
 
 </div>
