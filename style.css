@@ -185,3 +185,6 @@ main{animation:enter .7s ease both}
 .hero h1.long{font-size:clamp(2.2rem,8.4vw,6.2rem)}
 .avatar{background:linear-gradient(135deg,var(--acc),var(--a2))}
 .hero h1.long{font-size:clamp(2rem,6.6vw,5.2rem)}
+
+body[data-t="forge"]{--bg:#0b1112;--navy:#14201e;--ink:#edf2ec;--mut:#a2b0a8;--acc:#ff9248;--a2:#75d8bd;--panel:#101a19}
+.logos a:nth-child(5) img{animation-delay:-4.8s}

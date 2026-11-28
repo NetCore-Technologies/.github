@@ -3,7 +3,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:090A0F,35:14213D,70:6C3BFF,100:00D4FF&height=240&section=header&text=NETCORE%20TECHNOLOGIES&fontSize=48&fontColor=FFFFFF&fontAlignY=36&desc=Containers%20%7C%20Networking%20%7C%20Systems%20%7C%20AI&descAlignY=58&descSize=18&animation=twinkling" alt="NetCore Technologies animated banner"/>
 
 <a href="https://github.com/NetCore-Technologies">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=700&color=00D4FF&center=true&vCenter=true&width=850&lines=Build.+Break.+Learn.+Ship.;Linux+containers%2C+down+to+the+kernel;boxr+%7C+WiFi+Analyzer+Pro+%7C+QuantumGrid+OS+%7C+AXIOM-AI;Two+builders.+One+core.;I+run+on+coffee+and+late-night+peace." alt="Animated typing text"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=700&color=00D4FF&center=true&vCenter=true&width=850&lines=Build.+Break.+Learn.+Ship.;Linux+containers%2C+down+to+the+kernel;boxr+%7C+WiFi+Analyzer+Pro+%7C+QuantumGrid+OS+%7C+AXIOM-AI+%7C+FORGE;Two+builders.+One+core.;I+run+on+coffee+and+late-night+peace." alt="Animated typing text"/>
 </a>
 
 <p>
@@ -11,6 +11,7 @@
   <a href="https://github.com/NetCore-Technologies/wifi-analyzer-pro"><img src="https://img.shields.io/badge/Project-WiFi%20Analyzer%20Pro-6C3BFF?style=for-the-badge&logo=wifi&logoColor=white&labelColor=090A0F" alt="WiFi Analyzer Pro"/></a>
   <a href="https://github.com/NetCore-Technologies/quantumgrid-os"><img src="https://img.shields.io/badge/Project-QuantumGrid%20OS-14213D?style=for-the-badge&logo=linux&logoColor=white&labelColor=090A0F" alt="QuantumGrid OS"/></a>
   <a href="https://github.com/manit6752025/AXIOM-AI"><img src="https://img.shields.io/badge/Project-AXIOM--AI-6C3BFF?style=for-the-badge&logo=github&labelColor=090A0F" alt="AXIOM-AI"/></a>
+  <a href="https://github.com/NetCore-Technologies/FORGE"><img src="https://img.shields.io/badge/Project-FORGE-ff9248?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=090A0F" alt="FORGE"/></a>
 </p>
 
 ### *“Two builders. One core.”*
@@ -27,6 +28,7 @@
 - 📡 **Networking:** real-time Wi-Fi diagnostics, routers, DNS and self-hosted infrastructure.
 - 🧩 **Systems:** operating-system concepts, Linux tooling and network-aware infrastructure.
 - 🧠 **AI tooling:** model workflows, evaluation and developer-friendly CLIs.
+- 🔥 **Developer workflow:** FORGE, a local-first workbench for project verification, automation guardrails and execution evidence.
 - 🌙 **Most productive** when the world gets quiet and the coffee gets suspiciously cold.
 
 > **Current operating mode:** `coffee.service` active · `sleep.service` not found · `deadline.timer` enabled
@@ -41,6 +43,7 @@
 | 📡 [**WiFi Analyzer Pro**](https://github.com/NetCore-Technologies/wifi-analyzer-pro) | Real-time WiFi diagnostic dashboard with a Python backend and React frontend. [Roadmap](https://github.com/NetCore-Technologies/wifi-analyzer-pro/blob/main/ROADMAP.md) | Python, TypeScript |
 | 🧩 [**QuantumGrid OS**](https://github.com/NetCore-Technologies/quantumgrid-os) | Operating-system concepts, Linux tooling and network-aware infrastructure | Systems |
 | 🧠 [**AXIOM-AI**](https://github.com/manit6752025/AXIOM-AI) | Open-source AI engineering workspace: experimentation, datasets, evaluation and CLI tooling | Python |
+| 🔥 [**FORGE**](https://github.com/NetCore-Technologies/FORGE) | **A forge for your developer workflow.** A local-first developer workbench for project verification, automation guardrails, webhook signature validation and execution evidence. [Website](https://netcore-technologies.github.io/FORGE/) | JavaScript (Node.js) |
 
 > boxr is an early-stage runtime and not a hardened security boundary or a Docker replacement. Read its [SECURITY.md](https://github.com/NetCore-Technologies/boxr/blob/main/SECURITY.md) before using it.
 
@@ -52,6 +55,8 @@
 <img src="https://raw.githubusercontent.com/NetCore-Technologies/.github/main/profile/stats/projects/project-quantumgrid-os.svg" width="49%" alt="QuantumGrid OS"/>
 <img src="https://raw.githubusercontent.com/NetCore-Technologies/.github/main/profile/stats/projects/project-axiom-ai.svg" width="49%" alt="AXIOM-AI"/>
 
+<img src="https://raw.githubusercontent.com/NetCore-Technologies/.github/main/profile/stats/projects/project-forge.svg" width="49%" alt="FORGE"/>
+
 </div>
 
 ### 📊 Repository activity
@@ -62,6 +67,7 @@
 | **WiFi Analyzer Pro** | ![c](https://img.shields.io/github/commit-activity/m/NetCore-Technologies/wifi-analyzer-pro?style=for-the-badge&color=6C3BFF&labelColor=090A0F) | ![s](https://img.shields.io/github/stars/NetCore-Technologies/wifi-analyzer-pro?style=for-the-badge&color=00D4FF&labelColor=090A0F) | ![r](https://img.shields.io/github/v/release/NetCore-Technologies/wifi-analyzer-pro?include_prereleases&style=for-the-badge&color=14213D&labelColor=090A0F) | ![i](https://img.shields.io/github/issues/NetCore-Technologies/wifi-analyzer-pro?style=for-the-badge&color=6C3BFF&labelColor=090A0F) |
 | **QuantumGrid OS** | ![c](https://img.shields.io/github/commit-activity/m/NetCore-Technologies/quantumgrid-os?style=for-the-badge&color=6C3BFF&labelColor=090A0F) | ![s](https://img.shields.io/github/stars/NetCore-Technologies/quantumgrid-os?style=for-the-badge&color=00D4FF&labelColor=090A0F) | ![r](https://img.shields.io/github/v/release/NetCore-Technologies/quantumgrid-os?include_prereleases&style=for-the-badge&color=14213D&labelColor=090A0F) | ![i](https://img.shields.io/github/issues/NetCore-Technologies/quantumgrid-os?style=for-the-badge&color=6C3BFF&labelColor=090A0F) |
 | **AXIOM-AI** | ![c](https://img.shields.io/github/commit-activity/m/manit6752025/AXIOM-AI?style=for-the-badge&color=6C3BFF&labelColor=090A0F) | ![s](https://img.shields.io/github/stars/manit6752025/AXIOM-AI?style=for-the-badge&color=00D4FF&labelColor=090A0F) | ![r](https://img.shields.io/github/v/release/manit6752025/AXIOM-AI?include_prereleases&style=for-the-badge&color=14213D&labelColor=090A0F) | ![i](https://img.shields.io/github/issues/manit6752025/AXIOM-AI?style=for-the-badge&color=6C3BFF&labelColor=090A0F) |
+| **FORGE** | ![c](https://img.shields.io/github/commit-activity/m/NetCore-Technologies/FORGE?style=for-the-badge&color=6C3BFF&labelColor=090A0F) | ![s](https://img.shields.io/github/stars/NetCore-Technologies/FORGE?style=for-the-badge&color=00D4FF&labelColor=090A0F) | ![r](https://img.shields.io/github/v/release/NetCore-Technologies/FORGE?include_prereleases&style=for-the-badge&color=14213D&labelColor=090A0F) | ![i](https://img.shields.io/github/issues/NetCore-Technologies/FORGE?style=for-the-badge&color=6C3BFF&labelColor=090A0F) |
 
 ---
 
@@ -69,7 +75,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,python,ts,js,react,vite,html,css,bash,linux,git,github,docker,sqlite,fastapi,vscode&perline=8" alt="Technology icons"/>
+<img src="https://skillicons.dev/icons?i=go,python,ts,js,nodejs,react,vite,html,css,bash,linux,git,github,docker,sqlite,fastapi,vscode&perline=8" alt="Technology icons"/>
 
 </div>
 
@@ -175,7 +181,7 @@
 
 ```text
 $ netcore status
-Projects             : compiling (boxr, WiFi Analyzer Pro, QuantumGrid OS, AXIOM-AI)
+Projects             : compiling (boxr, WiFi Analyzer Pro, QuantumGrid OS, AXIOM-AI, FORGE)
 Containers           : namespaces + cgroups
 Network curiosity    : 100%
 Open-source          : always

@@ -47,7 +47,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           STATS_KIND: projects
           STATS_OUT: profile/stats/projects
-          STATS_PROJECTS: NetCore-Technologies/boxr,NetCore-Technologies/wifi-analyzer-pro,NetCore-Technologies/quantumgrid-os,manit6752025/AXIOM-AI
+          STATS_PROJECTS: NetCore-Technologies/boxr,NetCore-Technologies/wifi-analyzer-pro,NetCore-Technologies/quantumgrid-os,manit6752025/AXIOM-AI,NetCore-Technologies/FORGE
         run: python3 scripts/generate_stats.py
 
       - name: Commit and push
